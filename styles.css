@@ -1,0 +1,39 @@
+:root{
+    --preto_principal: #000000;
+    --petroleo: #2f4550;
+    --cinza: #586f7c;
+    --cinza_azulado: #b8dbd9;
+    --quase_branco: #f4f4f9;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    position: relative;
+    top: 83%;
+}
+
+.header__menu{
+    display: flex;
+    
+       
+    padding: 1em;
+    column-gap: 1em;
+    justify-content: space-around;
+    background-color: var(--cinza_azulado);
+    
+}
+
+.header__links img{
+    
+    text-decoration: none;
+    width: 2em;
+    height: 2em;
+    
+}
+
+main{
+
+}
